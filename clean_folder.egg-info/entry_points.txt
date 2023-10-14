@@ -1,0 +1,2 @@
+[console_scrips]
+clean-folder = clean_folder.clean:recursion_file
