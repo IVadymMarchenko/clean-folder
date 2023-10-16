@@ -96,9 +96,11 @@ def recursion_file(file):
     print(f'Список всех известных расширений:{list(known_file)}')
     print(f'Список всех не известных расширений:{list(unknown_file)}')
 
-if __name__=='__main__':
+def main():
     if len(sys.argv) > 1:
         target_directory = sys.argv[1]
         recursion_file(target_directory)
     else:
         print("Укажите путь к целевой папке в аргументах командной строки.")
+if __name__ == "__main__":
+    main()
